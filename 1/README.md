@@ -4,7 +4,7 @@ Buatlah sebuah shell script yang menerima dua parameter: direktori dan ekstensi 
 # How to Use
 Just add the execution permission to run the script 
 ```bash
-chmod soal_1.sh
+chmod +x soal_1.sh
 ```
 
 # Script Result
