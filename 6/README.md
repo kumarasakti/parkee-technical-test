@@ -42,5 +42,30 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
 ```
 ## This are the result when the directory aren't existed
 ```bash
+ubuntu@ubuntu:~$ ./generate_ssh_keys.sh beta
+Directory created successfully at: beta
+Generating public/private ed25519 key pair.
+Your identification has been saved in beta/id_ed25519
+Your public key has been saved in beta/id_ed25519.pub
+The key fingerprint is:
+SHA256:redacted ubuntu@ubuntu
+The key's randomart image is:
++--[ED25519 256]--+
+| .++==           |
+|o+o.o.o.         |
+|++.o.o. +        |
+| .=.o. X .       |
+| o.*. o S .      |
+|o.=++  . .       |
+|o++o             |
+|oE=              |
+|B+oo             |
++----[SHA256]-----+
 
+SSH keys generated successfully:
+Private key: beta/id_ed25519
+Public key: beta/id_ed25519.pub
+
+Public key content:
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ubuntu@ubuntu
 ```
