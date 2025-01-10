@@ -1,5 +1,8 @@
-# Pencarian File Berdasarkan Ekstensi File (MANAGEMENT FILE)
-Buatlah sebuah shell script yang menerima dua parameter: direktori dan ekstensi file. Script ini harus mencari semua file dengan ekstensi yang diberikan di dalam direktori  tersebut dan menampilkan daftar nama file yang ditemukan.
+# Automasi Pembaharuan Sistem (BASIC SYSTEM)
+Buatlah sebuah shell script yang akan secara otomatis memperbaharui semua package 
+di sistem menggunakan package manager yang sesuai dengan family linux (misal ‘apt’, 
+‘yum’ atau sebagainya). Script harus juga mencatat hasil dari setiap pembaruan 
+kedalam sebuah file log.
 
 # How to Use
 Just add the execution permission to run the script 
