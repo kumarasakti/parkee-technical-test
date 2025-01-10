@@ -42,7 +42,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
 ```
 ## This are the result when the directory aren't existed
 ```bash
-ubuntu@ubuntu:~$ ./generate_ssh_keys.sh beta
+ubuntu@ubuntu:~$ ./soal_6.sh beta
 Directory created successfully at: beta
 Generating public/private ed25519 key pair.
 Your identification has been saved in beta/id_ed25519
