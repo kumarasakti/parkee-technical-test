@@ -37,6 +37,6 @@ Private key: /home/ubuntu/id_ed25519
 Public key: /home/ubuntu/id_ed25519.pub
 
 Public key:
-ssh-ed25519 redacted
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ubuntu@ubuntu
 ```
 
