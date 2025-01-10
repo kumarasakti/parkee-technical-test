@@ -4,18 +4,18 @@ Buatlah sebuah shell script yang menerima dua parameter: direktori dan ekstensi 
 # How to Use
 Just add the execution permission to run the script 
 ```bash
-chmod +x soal_1.sh
+chmod +x soal_5.sh
 ```
-Run the script and input 2 parameter
+Run the script and use root user or sudo
 ```bash
-Usage: ./soal_1.sh <directory> .<file_extension>
+Usage: ./soal_5.sh
 ```
 # Script Result
 
 If the file are found and the directory valid
 
 ```bash
-ubuntu@ubuntu:~$ sudo ./system-updates.sh
+ubuntu@ubuntu:~$ sudo ./soal_5.sh
 [2025-01-10 10:54:58] Starting system update...
 [2025-01-10 10:54:58] System Information:
 [2025-01-10 10:54:58] Detected package manager: apt
@@ -35,5 +35,6 @@ Reading state information...
 [2025-01-10 10:55:24] Upgrading packages...
 ...
 [2025-01-10 11:09:08] Cleaning up...
+....
 [2025-01-10 11:09:23] System update completed successfully
 ```
