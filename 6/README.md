@@ -12,6 +12,7 @@ Run the script and input the directory
 ```
 # Script Result
 
+## This are the result when the directory already existed
 ```bash
 ubuntu@ubuntu:~$ ./soal_6.sh /home/ubuntu
 Generating public/private ed25519 key pair.
@@ -39,4 +40,7 @@ Public key: /home/ubuntu/id_ed25519.pub
 Public key:
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ubuntu@ubuntu
 ```
+## This are the result when the directory aren't existed
+```bash
 
+```
