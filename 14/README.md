@@ -8,7 +8,11 @@ chmod +x soal_14.sh
 ```
 Run the script  
 ```bash
-./soal_16.sh 
+./soal_14.sh 
+```
+Run in background
+```bash
+
 ```
 # Script Result
 
