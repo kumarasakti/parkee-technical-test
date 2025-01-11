@@ -4,7 +4,7 @@ Buatlah sebuah shell script yang akan memonitor penggunaan disk pada sistem. Jik
 # How to Use
 Just add the execution permission to run the script 
 ```bash
-chmod +x soal_15sh
+chmod +x soal_15.sh
 ```
 Run the script  
 ```bash
