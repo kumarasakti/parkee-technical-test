@@ -11,11 +11,10 @@ chmod +x soal_2.sh
 ```
 Run the script and input 2 parameter
 ```bash
-Usage: ./2.sh <source_directory> <backup_destination>
-Example: ./2.sh /home/user/documents /backup/storage
+Usage: ./soal_2.sh <source_directory> <backup_destination>
+Example: ./soal_2.sh /home/user/documents /backup/storage
 ```
 # Script Result
-
 
 ```bash
 ./soal_2.sh /home/ubuntu/grocery /home/ubuntu/backup

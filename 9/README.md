@@ -6,11 +6,9 @@ Just add the execution permission to run the script
 ```bash
 chmod +x soal_9.sh
 ```
-Run the script and input the directory 
+Run the script and input the directory
 ```bash
 ./soal_9.sh <public_key_file_location> <username>
-
-
 ```
 # Script Result
 
