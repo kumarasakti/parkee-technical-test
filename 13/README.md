@@ -9,8 +9,6 @@ chmod +x soal_13.sh
 Run the script using root user or just use sudo
 ```bash
 sudo ./soal_13.sh 
-
-
 ```
 # Script Result
 
@@ -22,9 +20,8 @@ systemctl start sample_service
 systemctl stop sample_service
 systemctl status sample_service
 
-$ sudo systemctl status sample_service
+ubuntu@ubuntu:~$ sudo systemctl status sample_service
 ● sample_service.service - Sample Python Service
      Loaded: loaded (/etc/systemd/system/sample_service.service)
      Active: active (running)
-
 ```
