@@ -13,7 +13,7 @@ ubuntu@ubuntu:~$ ./soal_8.sh ubuntu 192.168.56.10
 ```
 # Script Result
 ```bash
-ubuntu@ubuntu:~$ ./8.sh ubuntu 192.168.56.10
+ubuntu@ubuntu:~$ ./soal_8.sh ubuntu 192.168.56.10
 Connection successful to 192.168.56.10
 
 ```

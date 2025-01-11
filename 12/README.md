@@ -1,5 +1,5 @@
-# Membuat Script untuk Menambahkan SSH Key ke ‘authorized_keys’ (SSH)
-Buatlah sebuah shell script yang menerima dua parameter: file key public dan username. Script ini harus menambahkan public key ke file ‘~/.ssh/authorized_keys’ dari user yang bersangkutan di server local.
+# Men-copy Direktori ke Server Remote (SCP)
+Buatlah sebuah 2 shell script (scp, dan rsync) yang menerima tiga parameter: file source, username, dan ip address server tujuan. Script ini harus menyalin file tersebut ke direktori home pengguna di server remote menggunakan ‘scp’ dan ‘rsync’
 
 # How to Use
 Just add the execution permission to run the script 
@@ -9,8 +9,6 @@ chmod +x soal_12.sh
 Run the script and input the directory 
 ```bash
 ./soal_12.sh <source_file> <username> <remote_ip>
-
-
 ```
 # Script Result
 
@@ -29,7 +27,6 @@ total size is 152  speedup is 0.52
 File successfully transferred using RSYNC
 
 ```
-
 ## If failed
 ### Failed Transfer (File doesn't exist)
 ```bash
