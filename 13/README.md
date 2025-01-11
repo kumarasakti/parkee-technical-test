@@ -1,4 +1,4 @@
-# Membuat Script untuk Menambahkan SSH Key ke ‘authorized_keys’ (SSH)
+# Membuat Unit File Systemd untuk Service Sederhana (SERVICE)
 Buatlah sebuah shell script yang membuat sebuah file systemd untuk menjalankan script python sederhana. File ini harus ditempatkan di folder `/etc/systemd/system/`. Script python harus dijalankan sebagai service yang dapat dijalankan, dihentikan dan di cek status service tersebut menggunakan systemctl.
 
 # How to Use
