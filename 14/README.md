@@ -12,7 +12,7 @@ Run the script
 ```
 Run in background
 ```bash
-
+./soal_14.sh &
 ```
 # Script Result
 
