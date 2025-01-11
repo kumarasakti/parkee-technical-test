@@ -14,7 +14,7 @@ ubuntu@ubuntu:~$ ./soal_7.sh /home/ubuntu/pubkey/id_ed25519.pub ubuntu 192.168.5
 # Script Result
 ```bash
 ubuntu@ubuntu:~$ ./7.sh /home/ubuntu/pubkey/id_ed25519.pub ubuntu 192.168.56.10
-/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/kali/pubkey/id_ed25519.pub"
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/ubuntu/pubkey/id_ed25519.pub"
 The authenticity of host '192.168.56.10 (192.168.56.10)' can't be established.
 ED25519 key fingerprint is SHA256:EiG+5iTmkH3PdSjxEVfOcLhRky6U94nBgp1OCw/D4jI.
 This key is not known by any other names.
